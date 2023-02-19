@@ -1,0 +1,87 @@
+.add-container{
+    background-image: linear-gradient(to right,red,blue);
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+}
+.add-options-container{
+    background-color: white;
+    padding:5px;
+    border-radius: 10px;
+    /* height:500px; */
+    width:320px;
+    height: 400px;
+    margin-left: 400px;
+    
+}
+
+.text-colour{
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.text-box-style{
+    border-radius: 10px;
+    width: 220px;
+    border-width:0px;
+    height:40px;
+    
+}
+.text-box-style1{
+    border-radius: 10px;
+    width: 220px;
+    border-width:0px;
+    height:80px;
+    
+}
+.button{
+    text-align: center;
+}
+
+.cancel-button{
+    text-align: center;
+}
+.upButton{
+    text-align: right;
+}
+.postBtn{
+    text-align: right;
+}
+.addBtn{
+    text-align: left;
+}
+
+
+@media (max-width: 575.98px) { 
+    
+    .add-options-container{
+        background-color: lightblue;
+        margin: 0px;
+        width:300px;
+    }
+    .add-container{
+        background-image: linear-gradient(to right,white,white);
+        background-size: cover;
+        height:100vh;
+    }
+ }
+
+ @media (min-width: 576.98px) { 
+    
+    .add-options-container{
+        background-color: pink;
+        /* text-align: center; */
+        margin-right: 150px;
+        width:300px;
+    }
+    .add-container{
+        /* background-image: linear-gradient(to right,white,white); */
+        background-image: linear-gradient(to right,red,blue);
+        background-size: cover;
+        height:100vh;
+    }
+ }
+.val-color{
+    font-size: 10px;
+    color:red;
+}

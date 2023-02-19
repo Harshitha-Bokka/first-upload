@@ -1,0 +1,56 @@
+.navbar-container{
+    background-image: linear-gradient(to right,red,blue);
+}
+.nav-color{
+    color:white;
+}
+.card-img-top{
+    height:300px;
+     
+}
+.card{
+    margin-top: 15px;
+}
+.card-text{
+    height:130px
+}
+.edit-icon{
+    background-color: green;
+    color:white;
+    font-size: 20px;
+    border-radius: 5px;
+    height:35px;
+    padding:5px;
+    width:30px;
+    margin-right: 10px;
+
+    
+}
+.delete-icon{
+    background-color: red;
+    color:white;
+    font-size: 20px;
+    border-radius: 5px;
+    height:35px;
+    padding:5px;
+    width:30px;
+}
+.button{
+    text-align: left;
+}
+
+.topContainer{
+    width: 100%;
+}
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+  @media (max-width: 575.98px) { 
+    .topContainer{
+        width: 100%;
+    }
+  }
